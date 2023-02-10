@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+}
+
+.wraper {
+    /* display: flex; */
+    width: 100%;
+}
+
+.table_wraper {
+    /* width: 70%; */
+}
+
+.result_wraper {
+    /* width: 30%; */
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+td {
+    background-color: transparent;
+}
+
+th {
+    width: 10%;
+}
+th:nth-child(1) {
+    width: 20%;
+}
+ 
+.pure-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+ 
+.pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial,sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+ 
+.pure-table td,.pure-table th {
+    border-left: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    border-width: 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+ 
+.pure-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
